@@ -1,6 +1,6 @@
 class HtmlWebpackScriptAttributePlugin {
   constructor(HtmlWebpackPlugin,options) {
-    this.HtmlWebpackPlugin
+    this.HtmlWebpackPlugin = HtmlWebpackPlugin;
     this.options = options;
   }
 
