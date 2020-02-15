@@ -11,7 +11,7 @@ class HtmlWebpackScriptAttributePlugin {
         if (assets && assets.bodyTags) {
           assets.bodyTags.forEach((bodyTag) => {
             if (bodyTag.tagName === 'script' && !bodyTag.innerHTML) {
-                bodyTag.attributes = Object.assign(this.options, bodyTag.attributes);
+                bodyTag.attributes = Object.assign({}, this.options, bodyTag.attributes);
             }
           });
         }

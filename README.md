@@ -1,7 +1,3 @@
----
-sidebarDepth: 2
----
-
 # html-webpack-script-attribute-plugin 文档
 
 ## 给script添加自定义attr
@@ -9,9 +5,9 @@ sidebarDepth: 2
 > 版本：1.0.2+
 > webpack版本：4+
 
-:::tip
+tip:
 如果你使用htmlwebpackplugin，那么使用此插件，可以给你的script标签添加自定义字段，比如 crossorigin
-:::
+
 
 **用法：**
 

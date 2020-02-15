@@ -1,6 +1,6 @@
 {
   "name": "html-webpack-script-attribute-plugin",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "一个给你的html script标签添加附加参数的插件",
   "main": "index.js",
   "scripts": {
