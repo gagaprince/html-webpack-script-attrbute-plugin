@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:gagaprince/html-webpack-script-attrbute-plugin.git"
+  },
   "author": "gagaprince",
   "license": "MIT"
 }
