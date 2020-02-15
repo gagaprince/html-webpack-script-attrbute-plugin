@@ -1,6 +1,6 @@
 {
   "name": "html-webpack-script-attribute-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "一个给你的html script标签添加附加参数的插件",
   "main": "index.js",
   "scripts": {
@@ -11,8 +11,5 @@
     "url": "git@github.com:gagaprince/html-webpack-script-attrbute-plugin.git"
   },
   "author": "gagaprince",
-  "license": "MIT",
-  "dependencies": {
-    "html-webpack-plugin": "^3.2.0"
-  }
+  "license": "MIT"
 }

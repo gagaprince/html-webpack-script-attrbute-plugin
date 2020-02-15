@@ -1,13 +1,12 @@
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-
 class HtmlWebpackScriptAttributePlugin {
-  constructor(options) {
+  constructor(HtmlWebpackPlugin,options) {
+    this.HtmlWebpackPlugin
     this.options = options;
   }
 
   apply(compiler) {
     compiler.hooks.compilation.tap('TestPlugin', (compilation) => {
-      const hooks = HtmlWebpackPlugin.getHooks(compilation);
+      const hooks = this.HtmlWebpackPlugin.getHooks(compilation);
       hooks.alterAssetTagGroups.tap('TestPlugin', (assets) => {
         if (assets && assets.bodyTags) {
           assets.bodyTags.forEach((bodyTag) => {
