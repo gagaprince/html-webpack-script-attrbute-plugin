@@ -1,0 +1,11 @@
+{
+  "name": "html-webpack-script-attrbute-plugin",
+  "version": "1.0.0",
+  "description": "一个给你的html script标签添加附加参数的插件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "gagaprince",
+  "license": "MIT"
+}
